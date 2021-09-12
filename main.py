@@ -38,8 +38,8 @@ else:
   print("computer chose : ")
   print(game_images[random_computer_choice])
 
-#  generally how have the largest number wins excapte
-# we have two exaption with 0 (rock) and 2 (scissors) we need to wight them first
+#  generally who have the largest number wins except
+# we have two exception with 0 (rock) and 2 (scissors) we need to write them first
 # if user_choice >= 3 or user_choice < 0 :
 #   print(" You typed an invalid number, you lose")
   if user_choice == 0 and random_computer_choice == 2:
